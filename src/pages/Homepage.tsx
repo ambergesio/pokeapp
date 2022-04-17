@@ -71,7 +71,7 @@ const Homepage = () => {
                 <p className="m-2" style={{width: 40}}>{amountOfPages}</p>
                 <div className="form-check form-switch" style={{marginLeft: 50}}>
                     <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onChange={toggleResultsPerPage} />
-                    <label className="form-check-label">Show 5 results per page</label>
+                    <label className="form-check-label">{changeResultsPerPage ? "Switch off to show 10 results per page" : "Switch on to show 5 results per page"}</label>
                 </div>
             </div>
 
